@@ -1,0 +1,35 @@
+.active{
+    color: red !important;
+}
+
+.navbar-brand img{
+    height: 70px;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+#service{
+    height: 100vh;
+}
+.service-left, .service-center, .service-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.service-card{
+    position: relative;
+}
+.service-card img{
+    height: 30vh;
+}
+
+.service-card:hover .card-body{
+    box-shadow: 5px 5px 5px rgb(167, 158, 158);
+    margin-top: -10px;
+    cursor: pointer;
+    transition: transform 1s;
+    transform: rotateY(360deg);
+}
